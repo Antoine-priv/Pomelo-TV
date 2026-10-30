@@ -1,0 +1,12 @@
+# Clé de signature et son mot de passe : ne jamais publier
+signature/
+
+# Fichiers générés
+apk/
+source/dist/
+source/launcher/build/
+*.idsig
+.DS_Store
+
+# Ancien workflow de l'auteur d'origine, qui ne correspond plus à ce projet
+source/.github/
