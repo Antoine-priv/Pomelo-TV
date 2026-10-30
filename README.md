@@ -13,10 +13,10 @@
 
 ## Compiler
 
-Il faut un JDK 17, le SDK Android (build-tools et une plateforme 30 ou plus), Python 3 et Pillow.
+Il faut un JDK 17, le SDK Android (build-tools et une plateforme 30 ou plus), Python 3 et Pillow. Le script cherche le JDK et le SDK dans `outils/jdk` et `outils/sdk`, un dossier local non versionné, sauf si `JAVA_HOME` ou `ANDROID_HOME` sont définis.
 
 ```bash
-ANDROID_HOME=<sdk> JAVA_HOME=<jdk> ./compiler.sh
+./compiler.sh
 ```
 
 Le script crée une clé de signature locale dans `signature/` au premier lancement, puis produit `apk/pomelo-tv.apk`. Garde cette clé : sans elle, une nouvelle version ne peut pas s'installer par-dessus l'ancienne.
@@ -35,4 +35,4 @@ Pour la touche Source et l'extinction après inactivité, active ensuite le serv
 
 ## Origine et licences
 
-Pomelo TV est dérivé de [Zen TV](https://github.com/Hoax017/zen-tv) de Hoax017, sous licence MIT (voir `LICENSE`). Le dossier `source/` conserve ses scripts et sa documentation d'origine. La police [Inter](https://github.com/rsms/inter) est sous licence SIL OFL (voir `source/launcher/assets/fonts/LICENSE.txt`).
+Pomelo TV est dérivé de [Zen TV](https://github.com/Hoax017/zen-tv) de Hoax017, sous licence MIT (voir `LICENSE`). La police [Inter](https://github.com/rsms/inter) est sous licence SIL OFL (voir `launcher/assets/fonts/LICENSE.txt`).

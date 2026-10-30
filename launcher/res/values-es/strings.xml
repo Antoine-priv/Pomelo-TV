@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_key_desc">Integra la tecla Source en Pomelo TV y permite apagar por inactividad.</string>
+    <string name="inputs">Fuentes</string>
+    <string name="settings">Ajustes</string>
+    <string name="google_settings">Ajustes de Android</string>
+    <string name="shown_inputs">Fuentes visibles</string>
+    <string name="shown_inputs_hint">Fuentes disponibles en la app Fuentes</string>
+    <string name="no_inputs">Ninguna fuente visible: elige alguna aquí</string>
+    <string name="tv_input">TV</string>
+    <string name="saver_delay">Salvapantallas</string>
+    <string name="nav_sound">Sonido de navegación</string>
+    <string name="sleep_timer">Apagar por inactividad</string>
+    <string name="sleep_warning">El televisor se apagará en 1 minuto</string>
+    <string name="dock_blur">Fondo del dock difuminado</string>
+    <string name="wallpaper_change">Cambio de fondo</string>
+    <string name="wallpaper_never">Nunca</string>
+    <string name="cannot_open">No se puede abrir la app</string>
+    <string name="unavailable">No disponible</string>
+    <string name="tile_smoothing">Suavizado de mosaicos</string>
+    <string name="smoothing_off">Desactivado</string>
+    <string name="smoothing_selected">Selección</string>
+    <string name="smoothing_all">Todos</string>
+    <string name="power_off">Apagar</string>
+    <string name="shelf_setting">Recomendaciones</string>
+    <string name="language">Idioma</string>
+    <string name="language_auto">Televisor</string>
+    <string name="a11y_row">Servicio de accesibilidad</string>
+    <string name="a11y_title">Activar el servicio de accesibilidad</string>
+    <string name="a11y_why">Integra la tecla Source del mando en Pomelo TV y permite apagar por inactividad.</string>
+    <string name="a11y_path">En los ajustes de Android:\nPreferencias del dispositivo → Accesibilidad → Pomelo TV → Activar</string>
+</resources>

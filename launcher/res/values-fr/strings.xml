@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_key_desc">Intègre la touche Source à Pomelo TV et permet son extinction après inactivité.</string>
+    <string name="inputs">Sources</string>
+    <string name="settings">Réglages</string>
+    <string name="google_settings">Paramètres Android</string>
+    <string name="shown_inputs">Sources affichées</string>
+    <string name="shown_inputs_hint">Sources proposées par l\'application Sources</string>
+    <string name="no_inputs">Aucune source affichée : choisis-en ici</string>
+    <string name="tv_input">TV</string>
+    <string name="saver_delay">Économiseur d\'écran</string>
+    <string name="nav_sound">Son de navigation</string>
+    <string name="sleep_timer">Extinction après inactivité</string>
+    <string name="sleep_warning">Extinction du téléviseur dans 1 minute</string>
+    <string name="dock_blur">Fond du dock flou</string>
+    <string name="wallpaper_change">Changement de fond d\'écran</string>
+    <string name="wallpaper_never">Jamais</string>
+    <string name="cannot_open">Impossible d\'ouvrir l\'appli</string>
+    <string name="unavailable">Indisponible</string>
+    <string name="tile_smoothing">Lissage des tuiles</string>
+    <string name="smoothing_off">Désactivé</string>
+    <string name="smoothing_selected">Sélection</string>
+    <string name="smoothing_all">Toutes</string>
+    <string name="power_off">Éteindre</string>
+    <string name="shelf_setting">Recommandations</string>
+    <string name="language">Langue</string>
+    <string name="language_auto">Téléviseur</string>
+    <string name="a11y_row">Service accessibilité</string>
+    <string name="a11y_title">Activer le service d\'accessibilité</string>
+    <string name="a11y_why">Il permet d\'intégrer la touche Source de la télécommande à Pomelo TV, ainsi que l\'extinction après inactivité.</string>
+    <string name="a11y_path">Dans les paramètres Android :\nPréférences relatives à l\'appareil → Accessibilité → Pomelo TV → Activer</string>
+</resources>
