@@ -2,6 +2,15 @@
 
 Écran d'accueil pour Android TV (Android 7 ou plus récent), léger et sans publicité, pensé pour la télécommande.
 
+![Écran d'accueil de Pomelo TV](captures/accueil.png)
+
+| | |
+|---|---|
+| ![Suggestions de l'app sélectionnée](captures/netflix.png) | ![Toutes les apps](captures/grille.png) |
+| Suggestions de l'app sélectionnée | Toutes les apps, avec la flèche du bas |
+| ![Panneau Sources](captures/sources.png) | ![Réglages](captures/reglages.png) |
+| Panneau Sources | Réglages |
+
 ## Fonctionnalités
 
 - **Dock de 6 apps maximum** et grille de toutes les autres apps, accessible avec la flèche du bas.
