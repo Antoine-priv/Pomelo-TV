@@ -7,6 +7,5 @@ outils/
 # Fichiers générés
 apk/
 launcher/build/
-launcher/assets/wallpapers/
 *.idsig
 .DS_Store

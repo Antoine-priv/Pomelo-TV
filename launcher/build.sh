@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Builds Pomelo TV without Gradle: wallpapers -> aapt2 -> javac -> d8 -> zipalign -> apksigner.
-# Needs: Android SDK (build-tools + a platform >= 30), JDK 11+, Python 3 with Pillow.
+# Builds Pomelo TV without Gradle: aapt2 -> javac -> d8 -> zipalign -> apksigner.
+# Needs: Android SDK (build-tools + a platform >= 30), JDK 11+.
 # Output: ../apk/pomelo-tv.apk
 # Lancé par compiler.sh, qui fournit la version et la clé de signature.
 set -euo pipefail
@@ -14,12 +14,6 @@ OUT=build
 DIST=../apk
 echo "build-tools: $BT"
 echo "platform:    $JAR"
-
-if [ -z "$(ls assets/wallpapers/*.jpg 2>/dev/null)" ]; then
-  echo "Generating wallpapers…"
-  python3 -I tools/gen_wallpapers.py assets/wallpapers
-fi
-[ -f res/drawable/banner.png ] || python3 -I tools/gen_icons.py res/drawable
 
 rm -rf "$OUT" && mkdir -p "$OUT/gen" "$OUT/classes" "$OUT/dex" "$DIST"
 "$BT/aapt2" compile --dir res -o "$OUT/res.zip"

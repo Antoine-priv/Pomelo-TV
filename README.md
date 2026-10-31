@@ -13,7 +13,7 @@
 
 ## Compiler
 
-Il faut un JDK 17, le SDK Android (build-tools et une plateforme 30 ou plus), Python 3 et Pillow. Le script cherche le JDK et le SDK dans `outils/jdk` et `outils/sdk`, un dossier local non versionné, sauf si `JAVA_HOME` ou `ANDROID_HOME` sont définis.
+Il faut un JDK 17 et le SDK Android (build-tools et une plateforme 30 ou plus). Le script cherche le JDK et le SDK dans `outils/jdk` et `outils/sdk`, un dossier local non versionné, sauf si `JAVA_HOME` ou `ANDROID_HOME` sont définis.
 
 ```bash
 ./compiler.sh

@@ -6,7 +6,7 @@ Pomelo TV est un écran d'accueil pour Android TV (`com.pomelo.tv`), en Java pur
 
 ## Compiler et installer
 
-Pas de Gradle : `compiler.sh` appelle `launcher/build.sh` (aapt2 → javac → d8 → zipalign → apksigner). Le JDK 17 et le SDK Android sont dans `outils/` (non versionné) ; il faut aussi Python 3 et Pillow.
+Pas de Gradle : `compiler.sh` appelle `launcher/build.sh` (aapt2 → javac → d8 → zipalign → apksigner). Le JDK 17 et le SDK Android sont dans `outils/` (non versionné).
 
 ```bash
 ./compiler.sh
@@ -41,7 +41,7 @@ Le code est dans `launcher/src/com/pomelo/tv/`.
 
 Les durées d'animation passent par `slow()`, et l'échelle de focus par `animateFocus`. Le texte visible va dans `res/values{,-fr,-es,-de,-it}/strings.xml` : toujours renseigner les cinq langues.
 
-Les fonds d'écran (`assets/wallpapers`) sont générés au build et non versionnés, tout comme `apk/`.
+Les fonds d'écran (`assets/wallpapers`) sont versionnés : c'est leur seule source. `apk/` ne l'est pas.
 
 ## Pièges sur la TV
 
